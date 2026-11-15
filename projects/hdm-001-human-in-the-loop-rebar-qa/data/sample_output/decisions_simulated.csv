@@ -1,0 +1,15 @@
+row_id,reviewer,decision,comment
+4,simulated_reviewer,ok,simulated from synthetic ground truth
+8,simulated_reviewer,issue,simulated from synthetic ground truth
+10,simulated_reviewer,issue,simulated from synthetic ground truth
+12,simulated_reviewer,ok,simulated from synthetic ground truth
+22,simulated_reviewer,issue,simulated from synthetic ground truth
+24,simulated_reviewer,ok,simulated from synthetic ground truth
+27,simulated_reviewer,ok,simulated from synthetic ground truth
+28,simulated_reviewer,issue,simulated from synthetic ground truth
+38,simulated_reviewer,ok,simulated from synthetic ground truth
+40,simulated_reviewer,ok,simulated from synthetic ground truth
+47,simulated_reviewer,ok,simulated from synthetic ground truth
+50,simulated_reviewer,ok,simulated from synthetic ground truth
+53,simulated_reviewer,ok,simulated from synthetic ground truth
+54,simulated_reviewer,issue,simulated from synthetic ground truth

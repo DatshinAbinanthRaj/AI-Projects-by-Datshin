@@ -1,0 +1,30 @@
+row_id,rule,certain,message,suggested
+2,missing_value,1,Missing or non-numeric: total_bars,
+4,cut_length_deviation,0,"Cut length 1725 mm differs from the calculated 1670 by 55 mm (rounding, allowance or error?)",
+6,missing_value,1,Missing or non-numeric: total_bars,
+8,cut_length_deviation,0,"Cut length 5675 mm differs from the calculated 5750 by 75 mm (rounding, allowance or error?)",
+10,cut_length_deviation,0,"Cut length 4350 mm differs from the calculated 4393 by 43 mm (rounding, allowance or error?)",
+12,cut_length_deviation,0,"Cut length 2225 mm differs from the calculated 2180 by 45 mm (rounding, allowance or error?)",
+14,cut_length_error,1,"Cut length 1950 mm, expected about 2460",2460
+16,total_bars_mismatch,1,"Total bars 190, expected 8 x 24 = 192",192
+18,total_weight_mismatch,1,"Total weight 1765.43 kg, expected 1604.94",1604.94
+22,exceeds_stock_length,0,Cut length 13500 mm is longer than a 12000 mm stock bar (lap or coupler decision needed),
+24,unsupported_shape_code,0,Shape code 99 is not covered by the checker,
+26,non_standard_diameter,1,Diameter 18 mm is not a standard bar size,
+28,cut_length_deviation,0,"Cut length 3600 mm differs from the calculated 3650 by 50 mm (rounding, allowance or error?)",
+30,cut_length_error,1,"Cut length 5900 mm, expected about 4909",4909
+32,total_bars_mismatch,1,"Total bars 134, expected 8 x 17 = 136",136
+34,unit_weight_mismatch,1,"Unit weight 1.896 kg/m, expected 1.580",1.580
+36,unit_weight_mismatch,1,"Unit weight 0.756 kg/m, expected 0.889",0.889
+38,unsupported_shape_code,0,Shape code 99 is not covered by the checker,
+40,cut_length_deviation,0,"Cut length 1400 mm differs from the calculated 1350 by 50 mm (rounding, allowance or error?)",
+46,total_weight_mismatch,1,"Total weight 4159.2 kg, expected 415.92",415.92
+48,non_standard_diameter,1,Diameter 22 mm is not a standard bar size,
+50,cut_length_deviation,0,"Cut length 6600 mm differs from the calculated 6550 by 50 mm (rounding, allowance or error?)",
+52,unit_weight_mismatch,1,"Unit weight 1.067 kg/m, expected 0.889",0.889
+54,exceeds_stock_length,0,Cut length 13500 mm is longer than a 12000 mm stock bar (lap or coupler decision needed),
+56,total_weight_mismatch,1,"Total weight 187.5 kg, expected 375.00",375.00
+58,cut_length_error,1,"Cut length 2125 mm, expected about 1830",1830
+60,total_bars_mismatch,1,"Total bars 123, expected 12 x 10 = 120",120
+19,duplicate_bar_mark,1,Bar mark 019 is used on 2 rows,
+20,duplicate_bar_mark,1,Bar mark 019 is used on 2 rows,

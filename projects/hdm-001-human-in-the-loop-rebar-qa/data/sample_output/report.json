@@ -1,0 +1,84 @@
+{
+  "total_rows": 60,
+  "routes": {
+    "AUTO_ACCEPT": 28,
+    "AUTO_FLAG": 18,
+    "HUMAN_REVIEW": 11,
+    "QA_SAMPLE": 3
+  },
+  "automation_rate": 0.767,
+  "pending_reviews": 0,
+  "human_review": {
+    "decided": 11,
+    "confirmed_issue": 5,
+    "false_alarm": 6,
+    "false_alarm_rate": 0.545
+  },
+  "qa_sample": {
+    "decided": 3,
+    "escaped_defects": 0,
+    "escape_rate": 0.0
+  },
+  "rules": {
+    "cut_length_deviation": {
+      "findings": 7,
+      "certain": false,
+      "confirmed": 3,
+      "false_alarm": 4
+    },
+    "cut_length_error": {
+      "findings": 3,
+      "certain": true,
+      "confirmed": 0,
+      "false_alarm": 0
+    },
+    "duplicate_bar_mark": {
+      "findings": 2,
+      "certain": true,
+      "confirmed": 0,
+      "false_alarm": 0
+    },
+    "exceeds_stock_length": {
+      "findings": 2,
+      "certain": false,
+      "confirmed": 2,
+      "false_alarm": 0
+    },
+    "missing_value": {
+      "findings": 2,
+      "certain": true,
+      "confirmed": 0,
+      "false_alarm": 0
+    },
+    "non_standard_diameter": {
+      "findings": 2,
+      "certain": true,
+      "confirmed": 0,
+      "false_alarm": 0
+    },
+    "total_bars_mismatch": {
+      "findings": 3,
+      "certain": true,
+      "confirmed": 0,
+      "false_alarm": 0
+    },
+    "total_weight_mismatch": {
+      "findings": 3,
+      "certain": true,
+      "confirmed": 0,
+      "false_alarm": 0
+    },
+    "unit_weight_mismatch": {
+      "findings": 3,
+      "certain": true,
+      "confirmed": 0,
+      "false_alarm": 0
+    },
+    "unsupported_shape_code": {
+      "findings": 2,
+      "certain": false,
+      "confirmed": 0,
+      "false_alarm": 2
+    }
+  }
+}

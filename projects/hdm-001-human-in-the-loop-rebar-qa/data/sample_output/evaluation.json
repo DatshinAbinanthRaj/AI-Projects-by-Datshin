@@ -1,0 +1,9 @@
+{
+  "defect_rows": 23,
+  "defects_caught": 23,
+  "defects_missed": [],
+  "recall": 1.0,
+  "clean_rows": 37,
+  "clean_rows_auto_flagged": 0,
+  "clean_rows_sent_to_human_review": 6
+}

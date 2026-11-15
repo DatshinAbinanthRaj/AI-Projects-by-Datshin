@@ -1,0 +1,26 @@
+{
+  "program": {
+    "target_projects": 600,
+    "published": 1,
+    "failed_executions": 0,
+    "missed_dates": [],
+    "start_date": "2026-11-15",
+    "remaining": 599
+  },
+  "projects": [
+    {
+      "number": "001",
+      "date": "2026-11-15",
+      "name": "Human-in-the-Loop Rebar QA System",
+      "category": "F: HDM + Rebar Detailing",
+      "technologies": "Python; SQLite; pytest",
+      "skills_demonstrated": "HITL routing; QA sampling; audit trail; false-alarm and escape rate; rule-based validation; synthetic ground truth",
+      "folder": "projects/hdm-001-human-in-the-loop-rebar-qa",
+      "url": "https://github.com/DatshinAbinanthRaj/AI-Projects-by-Datshin/tree/main/projects/hdm-001-human-in-the-loop-rebar-qa",
+      "test_status": "28 passed",
+      "quality_score": "87",
+      "publication_status": "published",
+      "interview_prep_status": "ready"
+    }
+  ]
+}
