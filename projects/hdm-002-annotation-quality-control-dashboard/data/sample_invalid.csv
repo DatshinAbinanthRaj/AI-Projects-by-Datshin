@@ -1,0 +1,12 @@
+item_id,annotator_id,label,gold_label,batch,seconds_spent
+X001,ann_a,billing,billing,B1,30
+X001,ann_b,billing,,B1,28
+X001,ann_b,technical,,B1,31
+X002,ann_a,refund,,B1,25
+X002,ann_b,account,,B1,abc
+X003,,other,,B1,22
+X004,ann_a,account,account,B1,40
+X004,ann_b,account,technical,B1,35
+X005,ann_a,,,B1,19
+X006,ann_a,other,,B1,-5
+X006,ann_b,other,,B1,33

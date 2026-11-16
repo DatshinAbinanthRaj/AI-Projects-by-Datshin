@@ -6,11 +6,12 @@ Each project lives in its own folder under `projects/`, runs on its own, and inc
 
 ## Progress
 
-Published: 1 / 600
+Published: 2 / 600
 
 | # | Project | Category | Stack | Tests | Score |
 |---|---|---|---|---|---:|
 | 001 | [Human-in-the-Loop Rebar QA System](projects/hdm-001-human-in-the-loop-rebar-qa) | F: HDM + Rebar | Python, SQLite, pytest | 28 passed | 87 |
+| 002 | [AI Annotation Quality Control Dashboard](projects/hdm-002-annotation-quality-control-dashboard) | A: Human Data Management | Python, pandas, Streamlit, Plotly, pytest | 23 passed | 88 |
 
 ## Where things are
 

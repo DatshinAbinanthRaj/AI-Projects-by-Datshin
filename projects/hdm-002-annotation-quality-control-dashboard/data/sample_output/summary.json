@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "rows_received": 360,
+    "rows_used": 360,
+    "validation_issues": 0,
+    "items": 120,
+    "annotators": 5,
+    "gold_items": 36,
+    "gold_accuracy": 0.8148148148148148,
+    "agreement_rate": 0.6888888888888889,
+    "disputed_items": 50,
+    "disputed_share": 0.4166666666666667,
+    "flagged_annotators": [
+      "ann_c",
+      "ann_d",
+      "ann_e"
+    ]
+  },
+  "thresholds": {
+    "min_accuracy": 0.8,
+    "min_gold": 10,
+    "min_agreement": 0.7,
+    "min_pairs": 20,
+    "min_speed_ratio": 0.4,
+    "max_label_bias": 0.2
+  }
+}

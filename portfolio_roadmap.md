@@ -25,7 +25,7 @@
 ## First 15
 
 1. Human-in-the-Loop Rebar QA System (done)
-2. AI Annotation Quality Control Dashboard
+2. AI Annotation Quality Control Dashboard (done)
 3. LLM Response Evaluation and Scoring Engine
 4. Automated Bar Bending Schedule Validator
 5. Human Data Operations KPI Dashboard
