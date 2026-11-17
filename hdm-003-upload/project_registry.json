@@ -1,0 +1,51 @@
+{
+  "program": {
+    "target_projects": 600,
+    "published": 3,
+    "failed_executions": 0,
+    "missed_dates": [],
+    "start_date": "2026-11-15",
+    "remaining": 597
+  },
+  "projects": [
+    {
+      "number": "001",
+      "date": "2026-11-15",
+      "name": "Human-in-the-Loop Rebar QA System",
+      "category": "F: HDM + Rebar Detailing",
+      "technologies": "Python; SQLite; pytest",
+      "skills_demonstrated": "HITL routing; QA sampling; audit trail; false-alarm and escape rate; rule-based validation; synthetic ground truth",
+      "folder": "projects/hdm-001-human-in-the-loop-rebar-qa",
+      "url": "https://github.com/DatshinAbinanthRaj/AI-Projects-by-Datshin/tree/main/projects/hdm-001-human-in-the-loop-rebar-qa",
+      "test_status": "28 passed",
+      "quality_score": "87",
+      "publication_status": "published"
+    },
+    {
+      "number": "002",
+      "date": "2026-11-16",
+      "name": "AI Annotation Quality Control Dashboard",
+      "category": "A: Human Data Management",
+      "technologies": "Python; pandas; Streamlit; Plotly; pytest",
+      "skills_demonstrated": "annotation QA metrics; gold-set accuracy; Wilson confidence interval; peer agreement; annotator speed and label-bias signals; batch drift; data validation; dashboard",
+      "folder": "projects/hdm-002-annotation-quality-control-dashboard",
+      "url": "https://github.com/DatshinAbinanthRaj/AI-Projects-by-Datshin/tree/main/projects/hdm-002-annotation-quality-control-dashboard",
+      "test_status": "23 passed",
+      "quality_score": "88",
+      "publication_status": "published"
+    },
+    {
+      "number": "003",
+      "date": "2026-11-17",
+      "name": "LLM Response Evaluation and Scoring Engine",
+      "category": "B: AI Training & LLM Evaluation",
+      "technologies": "Python (standard library); JSON/JSONL; pytest",
+      "skills_demonstrated": "rubric design and validation; weighted rubric scoring; critical-failure rules; automated response checks; hallucination and refusal checks; human vs automated mismatch flags; evaluator disagreement; paired model comparison; bootstrap confidence interval; failure categorisation",
+      "folder": "projects/hdm-003-llm-response-evaluation-scoring-engine",
+      "url": "https://github.com/DatshinAbinanthRaj/AI-Projects-by-Datshin/tree/main/projects/hdm-003-llm-response-evaluation-scoring-engine",
+      "test_status": "38 passed",
+      "quality_score": "88",
+      "publication_status": "published"
+    }
+  ]
+}
