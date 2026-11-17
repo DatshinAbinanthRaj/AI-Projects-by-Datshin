@@ -1,3 +1,0 @@
-# The engine itself uses only the Python standard library (Python 3.10+).
-# pytest is needed only to run the tests.
-pytest>=7
