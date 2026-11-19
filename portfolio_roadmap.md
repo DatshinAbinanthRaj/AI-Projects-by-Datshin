@@ -26,8 +26,8 @@
 
 1. Human-in-the-Loop Rebar QA System (done)
 2. AI Annotation Quality Control Dashboard (done)
-3. LLM Response Evaluation and Scoring Engine
-4. Automated Bar Bending Schedule Validator
+3. LLM Response Evaluation and Scoring Engine (done)
+4. Automated Bar Bending Schedule Validator (done)
 5. Human Data Operations KPI Dashboard
 6. Multi-Annotator Agreement Analyzer
 7. AI Dataset Quality Auditing Tool

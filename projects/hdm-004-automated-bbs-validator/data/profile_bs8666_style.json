@@ -1,0 +1,33 @@
+{
+  "name": "BS 8666-style demonstration profile",
+  "note": "Illustrative values for a portfolio prototype. Check every formula and limit against the standard and project specification in force before any real use.",
+  "length_rounding_mm": 25,
+  "cut_length_tolerance_mm": 25,
+  "max_bar_length_mm": 12000,
+  "steel_density_kg_m3": 7850,
+  "summary_weight_tolerance_pct": 1.0,
+  "bar_mark_pattern": "^[A-Za-z0-9]{1,6}$",
+  "required_header_fields": ["project", "drawing_no", "revision", "schedule_date", "prepared_by", "checked_by"],
+  "diameters": {
+    "8":  {"min_former_radius_mm": 16,  "min_end_projection_mm": 115},
+    "10": {"min_former_radius_mm": 20,  "min_end_projection_mm": 120},
+    "12": {"min_former_radius_mm": 24,  "min_end_projection_mm": 125},
+    "16": {"min_former_radius_mm": 32,  "min_end_projection_mm": 130},
+    "20": {"min_former_radius_mm": 70,  "min_end_projection_mm": 190},
+    "25": {"min_former_radius_mm": 87,  "min_end_projection_mm": 240},
+    "32": {"min_former_radius_mm": 112, "min_end_projection_mm": 305},
+    "40": {"min_former_radius_mm": 140, "min_end_projection_mm": 380}
+  },
+  "shapes": {
+    "00": {"description": "Straight bar", "dimensions": ["A"], "formula": "A", "end_legs": []},
+    "11": {"description": "One 90 degree bend (L bar)", "dimensions": ["A", "B"], "formula": "A + B - 0.5*r - d", "end_legs": ["A", "B"]},
+    "13": {"description": "Semi-circular end (hairpin)", "dimensions": ["A", "B", "C"], "formula": "A + 0.57*B + C - 1.6*d", "end_legs": ["A", "C"], "constraints": ["B >= 2*(r + d)"]},
+    "21": {"description": "Two 90 degree bends (U bar)", "dimensions": ["A", "B", "C"], "formula": "A + B + C - r - 2*d", "end_legs": ["A", "C"]},
+    "31": {"description": "Three 90 degree bends", "dimensions": ["A", "B", "C", "D"], "formula": "A + B + C + D - 1.5*r - 3*d", "end_legs": ["A", "D"]},
+    "33": {"description": "Closed loop with semi-circular ends", "dimensions": ["A", "B", "C"], "formula": "2*A + 1.7*B + 2*C - 4*d", "end_legs": [], "constraints": ["B >= 2*(r + d)"]},
+    "41": {"description": "Four 90 degree bends (top hat)", "dimensions": ["A", "B", "C", "D", "E"], "formula": "A + B + C + D + E - 2*r - 4*d", "end_legs": ["A", "E"]},
+    "44": {"description": "Four 90 degree bends (alternative layout)", "dimensions": ["A", "B", "C", "D", "E"], "formula": "A + B + C + D + E - 2*r - 4*d", "end_legs": ["A", "E"]},
+    "51": {"description": "Closed link (stirrup)", "dimensions": ["A", "B", "C"], "formula": "2*(A + B + C) - 2.5*r - 5*d", "end_legs": ["C"]},
+    "63": {"description": "Link variant with three short sides", "dimensions": ["A", "B", "C"], "formula": "2*A + 3*B + 2*C - 3*r - 6*d", "end_legs": ["C"]}
+  }
+}

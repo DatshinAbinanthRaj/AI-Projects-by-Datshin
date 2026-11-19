@@ -1,0 +1,131 @@
+{
+  "profile": "BS 8666-style demonstration profile",
+  "disclaimer": "Automated prototype checks. Not an engineering approval or a code-compliance check.",
+  "schedules_checked": 5,
+  "verdicts": {
+    "PASS": 1,
+    "REVIEW": 1,
+    "FAIL": 3,
+    "UNREADABLE": 0
+  },
+  "bar_rows_checked": 59,
+  "errors": 23,
+  "warnings": 6,
+  "findings_by_rule": {
+    "missing_value": 1,
+    "invalid_number": 1,
+    "invalid_quantity": 1,
+    "non_standard_diameter": 1,
+    "total_bars_mismatch": 1,
+    "missing_dimension": 1,
+    "invalid_dimension": 1,
+    "shape_constraint_failed": 1,
+    "leg_too_short": 1,
+    "cut_length_mismatch": 2,
+    "duplicate_bar_mark": 1,
+    "header_missing": 8,
+    "summary_weight_mismatch": 1,
+    "summary_diameter_missing": 1,
+    "summary_diameter_unexpected": 1,
+    "unknown_shape_code": 1,
+    "unused_dimension": 1,
+    "cut_length_not_rounded": 1,
+    "exceeds_max_length": 1,
+    "bar_mark_format": 1,
+    "no_weight_summary": 1
+  },
+  "schedules": [
+    {
+      "name": "S-101_footings_rev_B.csv",
+      "verdict": "PASS",
+      "bar_rows": 14,
+      "errors": 0,
+      "warnings": 0,
+      "computed_weight_kg": {
+        "10": 49.5,
+        "12": 562.1,
+        "16": 200.3,
+        "20": 1854.8,
+        "25": 2518.7,
+        "32": 3985.0
+      },
+      "computed_total_weight_kg": 9170.3,
+      "notes": [],
+      "problem": ""
+    },
+    {
+      "name": "S-205_columns_rev_A.csv",
+      "verdict": "REVIEW",
+      "bar_rows": 12,
+      "errors": 0,
+      "warnings": 5,
+      "computed_weight_kg": {
+        "8": 77.1,
+        "10": 72.3,
+        "12": 61.8,
+        "16": 288.8,
+        "20": 142.1,
+        "25": 1612.9,
+        "32": 4575.3
+      },
+      "computed_total_weight_kg": 6830.3,
+      "notes": [],
+      "problem": ""
+    },
+    {
+      "name": "S-310_beams_rev_C.csv",
+      "verdict": "FAIL",
+      "bar_rows": 16,
+      "errors": 11,
+      "warnings": 0,
+      "computed_weight_kg": {
+        "8": 13.8,
+        "10": 119.1,
+        "12": 277.8,
+        "16": 660.7,
+        "20": 232.8,
+        "25": 83.2,
+        "32": 1142.1
+      },
+      "computed_total_weight_kg": 2529.5,
+      "notes": [
+        "Weight for 14 mm bars was not reconciled because at least one row of that size has unusable values.",
+        "Weight for 20 mm bars was not reconciled because at least one row of that size has unusable values."
+      ],
+      "problem": ""
+    },
+    {
+      "name": "S-402_slab_rev_A.xlsx",
+      "verdict": "FAIL",
+      "bar_rows": 7,
+      "errors": 6,
+      "warnings": 0,
+      "computed_weight_kg": {
+        "10": 251.2,
+        "12": 962.8,
+        "16": 407.5
+      },
+      "computed_total_weight_kg": 1621.6,
+      "notes": [],
+      "problem": ""
+    },
+    {
+      "name": "S-518_walls_rev_A.csv",
+      "verdict": "FAIL",
+      "bar_rows": 10,
+      "errors": 6,
+      "warnings": 1,
+      "computed_weight_kg": {
+        "8": 32.4,
+        "12": 240.8,
+        "16": 146.8,
+        "20": 1906.6,
+        "25": 353.7,
+        "32": 3933.2
+      },
+      "computed_total_weight_kg": 6613.4,
+      "notes": [],
+      "problem": ""
+    }
+  ]
+}

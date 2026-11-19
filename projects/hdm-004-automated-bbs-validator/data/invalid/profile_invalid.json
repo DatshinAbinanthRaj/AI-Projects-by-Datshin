@@ -1,0 +1,30 @@
+{
+  "name": "Deliberately broken profile",
+  "length_rounding_mm": 0,
+  "cut_length_tolerance_mm": 25,
+  "max_bar_length_mm": 12000,
+  "steel_density_kg_m3": 7850,
+  "summary_weight_tolerance_pct": 1,
+  "diameters": {
+    "12": {
+      "min_former_radius_mm": 24,
+      "min_end_projection_mm": 125
+    }
+  },
+  "shapes": {
+    "11": {
+      "dimensions": [
+        "A"
+      ],
+      "formula": "A + B - 0.5*r - d"
+    },
+    "21": {
+      "dimensions": [
+        "A",
+        "B",
+        "C"
+      ],
+      "formula": "__import__('os').getcwd()"
+    }
+  }
+}

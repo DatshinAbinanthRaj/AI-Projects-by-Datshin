@@ -1,0 +1,41 @@
+{
+  "synthetic": true,
+  "header": {
+    "project": "Synthetic Demo Building (not a real project)",
+    "drawing_no": "S-205",
+    "revision": "A",
+    "schedule_date": "2026-11-18",
+    "prepared_by": "Detailer A (synthetic)",
+    "checked_by": "Checker B (synthetic)"
+  },
+  "weight_summary": [
+    {
+      "diameter_mm": 8,
+      "total_weight_kg": 77.1
+    },
+    {
+      "diameter_mm": 10,
+      "total_weight_kg": 72.3
+    },
+    {
+      "diameter_mm": 12,
+      "total_weight_kg": 61.8
+    },
+    {
+      "diameter_mm": 16,
+      "total_weight_kg": 288.8
+    },
+    {
+      "diameter_mm": 20,
+      "total_weight_kg": 142.1
+    },
+    {
+      "diameter_mm": 25,
+      "total_weight_kg": 1612.9
+    },
+    {
+      "diameter_mm": 32,
+      "total_weight_kg": 4575.3
+    }
+  ]
+}

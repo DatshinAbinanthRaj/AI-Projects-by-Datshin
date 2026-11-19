@@ -1,0 +1,30 @@
+schedule,line,bar_mark,rule,severity,message,suggested_value
+S-205_columns_rev_A.csv,2,01,cut_length_not_rounded,warning,Cut length 4510 mm is not a multiple of 25 mm,4525
+S-205_columns_rev_A.csv,4,03,exceeds_max_length,warning,"Cut length 13500 mm is longer than 12000 mm (lap, coupler or special delivery to be confirmed)",
+S-205_columns_rev_A.csv,6,05,unknown_shape_code,warning,Shape code 99 is not in the profile; cut length not checked,
+S-205_columns_rev_A.csv,7,06,unused_dimension,warning,Dimension B = 300 is not used by shape 00,
+S-205_columns_rev_A.csv,10,C-09/A,bar_mark_format,warning,"Bar mark 'C-09/A' does not match pattern ^[A-Za-z0-9]{1,6}$",
+S-310_beams_rev_C.csv,2,01,total_bars_mismatch,error,"Total bars 34, expected 5 x 6 = 30",30
+S-310_beams_rev_C.csv,3,02,cut_length_mismatch,error,"Cut length 3400 mm, shape 21 gives A + B + C - r - 2*d = 3090, rounded up to 3100 mm",3100
+S-310_beams_rev_C.csv,5,04,missing_dimension,error,Shape 51 needs dimension C,
+S-310_beams_rev_C.csv,6,05,non_standard_diameter,error,"Diameter 14 mm is not in the profile (8, 10, 12, 16, 20, 25, 32, 40)",
+S-310_beams_rev_C.csv,7,06,leg_too_short,error,Leg B = 150 mm is below the minimum end projection 240 mm for a 25 mm bar,
+S-310_beams_rev_C.csv,8,07,shape_constraint_failed,error,"Shape 13 requires B >= 2*(r + d) (r = 70, d = 20)",
+S-310_beams_rev_C.csv,10,08,duplicate_bar_mark,error,Bar mark 08 was already used on line 9,
+S-310_beams_rev_C.csv,11,10,missing_value,error,member is empty,
+S-310_beams_rev_C.csv,12,11,invalid_quantity,error,"bars_per_member must be a whole number above zero, found 2.5",
+S-310_beams_rev_C.csv,14,13,invalid_number,error,cut_length_mm 'TBC' is not a number,
+S-310_beams_rev_C.csv,15,14,invalid_dimension,error,"Dimension B must be a number above zero, found '-400'",
+S-402_slab_rev_A.xlsx,8,07,cut_length_mismatch,error,"Cut length 1600 mm, shape 11 gives A + B - 0.5*r - d = 1776, rounded up to 1800 mm",1800
+S-402_slab_rev_A.xlsx,,,header_missing,error,Title-block field 'revision' is missing,
+S-402_slab_rev_A.xlsx,,,header_missing,error,Title-block field 'checked_by' is missing,
+S-402_slab_rev_A.xlsx,,,summary_weight_mismatch,error,"12 mm bars: summary declares 885.8 kg, rows give 962.8 kg (8.0% apart)",962.8
+S-402_slab_rev_A.xlsx,,,summary_diameter_missing,error,16 mm bars weigh 407.5 kg in the rows but are not in the weight summary,407.5
+S-402_slab_rev_A.xlsx,,,summary_diameter_unexpected,error,Weight summary declares 310.0 kg of 25 mm bars but no row uses that size,
+S-518_walls_rev_A.csv,,,header_missing,error,Title-block field 'project' is missing,
+S-518_walls_rev_A.csv,,,header_missing,error,Title-block field 'drawing_no' is missing,
+S-518_walls_rev_A.csv,,,header_missing,error,Title-block field 'revision' is missing,
+S-518_walls_rev_A.csv,,,header_missing,error,Title-block field 'schedule_date' is missing,
+S-518_walls_rev_A.csv,,,header_missing,error,Title-block field 'prepared_by' is missing,
+S-518_walls_rev_A.csv,,,header_missing,error,Title-block field 'checked_by' is missing,
+S-518_walls_rev_A.csv,,,no_weight_summary,warning,No weight summary supplied; row totals were not reconciled,
