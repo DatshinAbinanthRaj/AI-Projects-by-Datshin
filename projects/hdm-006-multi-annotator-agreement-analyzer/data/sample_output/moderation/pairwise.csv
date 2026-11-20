@@ -1,0 +1,11 @@
+annotator_a,annotator_b,items_in_common,raw_agreement,cohen_kappa,enough_overlap
+ann_1,ann_2,46,0.8043,0.6664,True
+ann_1,ann_3,48,0.7917,0.703,True
+ann_1,ann_4,52,0.7115,0.6012,True
+ann_1,ann_5,34,0.5,0.2864,True
+ann_2,ann_3,53,0.7358,0.5954,True
+ann_2,ann_4,46,0.8043,0.6938,True
+ann_2,ann_5,47,0.5106,0.3154,True
+ann_3,ann_4,57,0.6491,0.509,True
+ann_3,ann_5,38,0.4211,0.2,True
+ann_4,ann_5,29,0.5172,0.3473,True

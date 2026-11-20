@@ -1,0 +1,187 @@
+{
+ "source": "tasks.csv",
+ "latest_week_start": "2026-10-19",
+ "red_kpis": [
+  "sla_compliance",
+  "turnaround_p90_h",
+  "overdue_open_end"
+ ],
+ "scorecard": [
+  {
+   "kpi": "sla_compliance",
+   "label": "SLA compliance",
+   "format": "pct",
+   "direction": "higher",
+   "value": 0.8581,
+   "target": 0.95,
+   "warn": 0.9,
+   "status": "red",
+   "previous": 0.9669,
+   "change": -0.1088
+  },
+  {
+   "kpi": "qa_pass_rate",
+   "label": "QA pass rate",
+   "format": "pct",
+   "direction": "higher",
+   "value": 0.9321,
+   "target": 0.92,
+   "warn": 0.88,
+   "status": "green",
+   "previous": 0.9362,
+   "change": -0.0041
+  },
+  {
+   "kpi": "rework_rate",
+   "label": "Rework rate",
+   "format": "pct",
+   "direction": "lower",
+   "value": 0.057,
+   "target": 0.06,
+   "warn": 0.1,
+   "status": "green",
+   "previous": 0.0502,
+   "change": 0.0068
+  },
+  {
+   "kpi": "turnaround_p90_h",
+   "label": "Turnaround, 90th percentile",
+   "format": "hours",
+   "direction": "lower",
+   "value": 93.3667,
+   "target": 36,
+   "warn": 60,
+   "status": "red",
+   "previous": 47.3617,
+   "change": 46.005
+  },
+  {
+   "kpi": "utilisation",
+   "label": "Utilisation",
+   "format": "pct",
+   "direction": "higher",
+   "value": 0.7314,
+   "target": 0.65,
+   "warn": 0.55,
+   "status": "green",
+   "previous": 0.7258,
+   "change": 0.0056
+  },
+  {
+   "kpi": "cost_per_task",
+   "label": "Labour cost per task",
+   "format": "money",
+   "direction": "lower",
+   "value": 3.2045,
+   "target": 3.6,
+   "warn": 4.0,
+   "status": "green",
+   "previous": 3.2575,
+   "change": -0.053
+  },
+  {
+   "kpi": "overdue_open_end",
+   "label": "Open tasks past due",
+   "format": "number",
+   "direction": "lower",
+   "value": 228,
+   "target": 25,
+   "warn": 100,
+   "status": "red",
+   "previous": 107,
+   "change": 121
+  }
+ ],
+ "queue_status": {
+  "image_bounding_box": {
+   "sla_compliance": "red",
+   "qa_pass_rate": "green",
+   "rework_rate": "green",
+   "turnaround_p90_h": "red",
+   "utilisation": "green",
+   "cost_per_task": "green",
+   "overdue_open_end": "red"
+  },
+  "llm_response_rating": {
+   "sla_compliance": "green",
+   "qa_pass_rate": "amber",
+   "rework_rate": "green",
+   "turnaround_p90_h": "green",
+   "utilisation": "green",
+   "cost_per_task": "green",
+   "overdue_open_end": "green"
+  },
+  "text_classification": {
+   "sla_compliance": "green",
+   "qa_pass_rate": "green",
+   "rework_rate": "green",
+   "turnaround_p90_h": "green",
+   "utilisation": "green",
+   "cost_per_task": "green",
+   "overdue_open_end": "green"
+  }
+ },
+ "forecasts": [
+  {
+   "queue": "ALL",
+   "weeks_used": 3,
+   "backlog": 362,
+   "avg_arrivals": 2074.6667,
+   "avg_completed": 1963.6667,
+   "net_per_week": -111.0,
+   "trend": "growing",
+   "weeks_to_clear": null,
+   "clear_in_weeks": 4,
+   "throughput_needed": 2165.1667,
+   "throughput_gap": 201.5,
+   "tasks_per_paid_hour": 5.8183,
+   "extra_paid_hours_per_week": 34.6323
+  },
+  {
+   "queue": "image_bounding_box",
+   "weeks_used": 3,
+   "backlog": 362,
+   "avg_arrivals": 721.3333,
+   "avg_completed": 600.6667,
+   "net_per_week": -120.6667,
+   "trend": "growing",
+   "weeks_to_clear": null,
+   "clear_in_weeks": 4,
+   "throughput_needed": 811.8333,
+   "throughput_gap": 211.1667,
+   "tasks_per_paid_hour": 5.3393,
+   "extra_paid_hours_per_week": 39.5498
+  },
+  {
+   "queue": "llm_response_rating",
+   "weeks_used": 3,
+   "backlog": 0,
+   "avg_arrivals": 390.6667,
+   "avg_completed": 390.6667,
+   "net_per_week": 0.0,
+   "trend": "no backlog",
+   "weeks_to_clear": 0.0,
+   "clear_in_weeks": 4,
+   "throughput_needed": 390.6667,
+   "throughput_gap": 0.0,
+   "tasks_per_paid_hour": 3.4726,
+   "extra_paid_hours_per_week": 0.0
+  },
+  {
+   "queue": "text_classification",
+   "weeks_used": 3,
+   "backlog": 0,
+   "avg_arrivals": 962.6667,
+   "avg_completed": 972.3333,
+   "net_per_week": 9.6667,
+   "trend": "no backlog",
+   "weeks_to_clear": 0.0,
+   "clear_in_weeks": 4,
+   "throughput_needed": 962.6667,
+   "throughput_gap": 0.0,
+   "tasks_per_paid_hour": 8.643,
+   "extra_paid_hours_per_week": 0.0
+  }
+ ],
+ "input_problems": 0
+}

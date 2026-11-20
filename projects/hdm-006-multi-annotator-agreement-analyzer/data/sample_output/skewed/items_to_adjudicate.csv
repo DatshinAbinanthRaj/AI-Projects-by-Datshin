@@ -1,0 +1,5 @@
+item_id,ratings,distinct_labels,majority_label,item_agreement,labels
+msg_007,2,2,,0.0,rater_x=unsafe; rater_y=safe
+msg_023,2,2,,0.0,rater_x=unsafe; rater_y=safe
+msg_035,2,2,,0.0,rater_x=unsafe; rater_y=safe
+msg_064,2,2,,0.0,rater_x=safe; rater_y=unsafe

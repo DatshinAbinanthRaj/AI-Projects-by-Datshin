@@ -1,0 +1,16 @@
+{
+  "sla_compliance": {"label": "SLA compliance", "format": "pct", "direction": "higher", "target": 0.95, "warn": 0.90},
+  "qa_pass_rate": {"label": "QA pass rate", "format": "pct", "direction": "higher", "target": 0.92, "warn": 0.88},
+  "rework_rate": {"label": "Rework rate", "format": "pct", "direction": "lower", "target": 0.06, "warn": 0.10},
+  "turnaround_p90_h": {"label": "Turnaround, 90th percentile", "format": "hours", "direction": "lower", "target": 36, "warn": 60},
+  "utilisation": {"label": "Utilisation", "format": "pct", "direction": "higher", "target": 0.65, "warn": 0.55},
+  "cost_per_task": {
+    "label": "Labour cost per task", "format": "money", "direction": "lower", "target": 3.60, "warn": 4.00,
+    "by_queue": {
+      "text_classification": {"target": 2.00, "warn": 2.30},
+      "llm_response_rating": {"target": 6.60, "warn": 7.30},
+      "image_bounding_box": {"target": 4.20, "warn": 4.70}
+    }
+  },
+  "overdue_open_end": {"label": "Open tasks past due", "format": "number", "direction": "lower", "target": 25, "warn": 100}
+}

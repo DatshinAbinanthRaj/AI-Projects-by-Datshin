@@ -28,8 +28,8 @@
 2. AI Annotation Quality Control Dashboard (done)
 3. LLM Response Evaluation and Scoring Engine (done)
 4. Automated Bar Bending Schedule Validator (done)
-5. Human Data Operations KPI Dashboard
-6. Multi-Annotator Agreement Analyzer
+5. Human Data Operations KPI Dashboard (done)
+6. Multi-Annotator Agreement Analyzer (done)
 7. AI Dataset Quality Auditing Tool
 8. BIM Metadata Validation System
 9. LLM Evaluation Rubric Management Platform

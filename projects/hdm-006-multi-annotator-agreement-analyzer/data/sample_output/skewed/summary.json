@@ -1,0 +1,28 @@
+{
+ "source": "skewed_two_raters.csv",
+ "summary": {
+  "level": "nominal",
+  "items": 100,
+  "items_with_two_or_more_ratings": 100,
+  "annotators": 2,
+  "ratings": 200,
+  "labels": [
+   "safe",
+   "unsafe"
+  ],
+  "percent_agreement": 0.96,
+  "krippendorff_alpha": 0.6943,
+  "alpha_nominal": 0.6943,
+  "alpha_ci_low": 0.3162,
+  "alpha_ci_high": 0.936,
+  "bootstrap_reps": 1000,
+  "seed": 7,
+  "band": "tentative",
+  "band_at_ci_low": "unreliable",
+  "fleiss_kappa": 0.6928,
+  "fleiss_items_used": 100,
+  "fleiss_ratings_per_item": 2,
+  "items_with_any_disagreement": 4
+ },
+ "input_problems": 0
+}

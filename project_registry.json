@@ -1,11 +1,13 @@
 {
  "program": {
   "target_projects": 600,
-  "published": 4,
-  "failed_executions": 0,
-  "missed_dates": [],
+  "published": 6,
+  "failed_executions": 1,
+  "missed_dates": [
+   "2026-11-19"
+  ],
   "start_date": "2026-11-15",
-  "remaining": 596
+  "remaining": 594
  },
  "projects": [
   {
@@ -58,6 +60,32 @@
    "url": "https://github.com/DatshinAbinanthRaj/AI-Projects-by-Datshin/tree/main/projects/hdm-004-automated-bbs-validator",
    "test_status": "77 passed",
    "quality_score": "88",
+   "publication_status": "published"
+  },
+  {
+   "number": "005",
+   "date": "2026-11-20",
+   "name": "Human Data Operations KPI Dashboard",
+   "category": "E: AI Project Management & Operations",
+   "technologies": "Python; pandas; HTML/SVG; JSON; pytest",
+   "skills_demonstrated": "operations KPI definition; SLA compliance and turnaround percentiles; backlog measurement; utilisation and cost per task; targets as configuration with per-queue overrides; red/amber/green status reporting; backlog outlook and staffing estimate; queue simulation for synthetic data; data validation; self-contained HTML/SVG dashboard",
+   "folder": "projects/hdm-005-human-data-operations-kpi-dashboard",
+   "url": "https://github.com/DatshinAbinanthRaj/AI-Projects-by-Datshin/tree/main/projects/hdm-005-human-data-operations-kpi-dashboard",
+   "test_status": "19 passed",
+   "quality_score": "88",
+   "publication_status": "published"
+  },
+  {
+   "number": "006",
+   "date": "2026-11-20",
+   "name": "Multi-Annotator Agreement Analyzer",
+   "category": "A: Human Data Management",
+   "technologies": "Python (standard library); CSV; JSON; pytest",
+   "skills_demonstrated": "chance-corrected inter-annotator agreement; Cohen's kappa; Fleiss' kappa; Krippendorff's alpha (nominal, ordinal, interval, missing ratings); bootstrap confidence interval; leave-one-annotator-out diagnostic; per-label agreement; confused label pairs; adjudication ranking; long and wide input layouts; verification against published reference values",
+   "folder": "projects/hdm-006-multi-annotator-agreement-analyzer",
+   "url": "https://github.com/DatshinAbinanthRaj/AI-Projects-by-Datshin/tree/main/projects/hdm-006-multi-annotator-agreement-analyzer",
+   "test_status": "30 passed",
+   "quality_score": "90",
    "publication_status": "published"
   }
  ]

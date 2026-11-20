@@ -1,0 +1,10 @@
+item_id,annotator_id,label
+i1,ann_a,cat
+i1,ann_b,cat
+i1,ann_b,dog
+i2,ann_a,dog
+i2,ann_b,fish
+i3,,cat
+i3,ann_b,cat
+i4,ann_a,cat
+i4,ann_b,dog

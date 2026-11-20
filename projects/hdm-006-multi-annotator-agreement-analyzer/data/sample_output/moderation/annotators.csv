@@ -1,0 +1,6 @@
+annotator,items_labelled,mean_kappa_with_others,alpha_without_annotator,alpha_change_if_removed
+ann_1,90,0.5643,0.4753,-0.0326
+ann_2,96,0.5677,0.4593,-0.0487
+ann_3,98,0.5019,0.4753,-0.0327
+ann_4,92,0.5378,0.4915,-0.0165
+ann_5,74,0.2873,0.6346,0.1266

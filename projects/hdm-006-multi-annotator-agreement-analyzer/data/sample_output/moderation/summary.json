@@ -1,0 +1,30 @@
+{
+ "source": "moderation_long.csv",
+ "summary": {
+  "level": "nominal",
+  "items": 150,
+  "items_with_two_or_more_ratings": 150,
+  "annotators": 5,
+  "ratings": 450,
+  "labels": [
+   "harassment",
+   "misinformation",
+   "safe",
+   "spam"
+  ],
+  "percent_agreement": 0.66,
+  "krippendorff_alpha": 0.508,
+  "alpha_nominal": 0.508,
+  "alpha_ci_low": 0.4336,
+  "alpha_ci_high": 0.5832,
+  "bootstrap_reps": 1000,
+  "seed": 7,
+  "band": "unreliable",
+  "band_at_ci_low": "unreliable",
+  "fleiss_kappa": 0.5069,
+  "fleiss_items_used": 150,
+  "fleiss_ratings_per_item": 3,
+  "items_with_any_disagreement": 74
+ },
+ "input_problems": 0
+}

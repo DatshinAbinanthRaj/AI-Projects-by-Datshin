@@ -1,0 +1,31 @@
+{
+ "source": "quality_wide.csv",
+ "summary": {
+  "level": "ordinal",
+  "items": 80,
+  "items_with_two_or_more_ratings": 80,
+  "annotators": 4,
+  "ratings": 290,
+  "labels": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "percent_agreement": 0.4388,
+  "krippendorff_alpha": 0.704,
+  "alpha_nominal": 0.2653,
+  "alpha_ci_low": 0.6019,
+  "alpha_ci_high": 0.7699,
+  "bootstrap_reps": 1000,
+  "seed": 7,
+  "band": "tentative",
+  "band_at_ci_low": "unreliable",
+  "fleiss_kappa": 0.2892,
+  "fleiss_items_used": 52,
+  "fleiss_ratings_per_item": 4,
+  "items_with_any_disagreement": 68
+ },
+ "input_problems": 0
+}

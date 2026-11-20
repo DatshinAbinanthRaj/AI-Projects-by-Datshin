@@ -1,0 +1,1 @@
+{"sla_compliance": {"label": "SLA", "format": "pct", "direction": "higher", "target": 0.90, "warn": 0.95}}

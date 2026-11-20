@@ -1,0 +1,5 @@
+annotator,items_labelled,mean_kappa_with_others,alpha_without_annotator,alpha_change_if_removed
+rater_a,74,0.3096,0.6557,-0.0483
+rater_b,73,0.2933,0.6789,-0.0251
+rater_c,70,0.3871,0.6715,-0.0325
+rater_d,73,0.1314,0.8019,0.0979

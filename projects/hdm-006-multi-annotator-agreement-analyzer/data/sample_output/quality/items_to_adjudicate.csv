@@ -1,0 +1,69 @@
+item_id,ratings,distinct_labels,majority_label,item_agreement,labels
+resp_059,4,4,,0.0,rater_a=3; rater_b=4; rater_c=2; rater_d=5
+resp_017,3,3,,0.0,rater_a=5; rater_b=3; rater_c=4
+resp_029,3,3,,0.0,rater_a=2; rater_b=1; rater_d=3
+resp_043,3,3,,0.0,rater_a=3; rater_b=2; rater_d=4
+resp_053,3,3,,0.0,rater_a=2; rater_b=3; rater_d=4
+resp_066,2,2,,0.0,rater_a=2; rater_b=1
+resp_074,2,2,,0.0,rater_c=3; rater_d=4
+resp_005,4,3,1,0.1667,rater_a=2; rater_b=1; rater_c=1; rater_d=3
+resp_007,4,3,3,0.1667,rater_a=3; rater_b=2; rater_c=3; rater_d=4
+resp_014,4,3,2,0.1667,rater_a=2; rater_b=1; rater_c=2; rater_d=3
+resp_028,4,3,5,0.1667,rater_a=4; rater_b=5; rater_c=3; rater_d=5
+resp_030,4,3,2,0.1667,rater_a=2; rater_b=1; rater_c=2; rater_d=3
+resp_039,4,3,3,0.1667,rater_a=2; rater_b=3; rater_c=3; rater_d=4
+resp_047,4,3,3,0.1667,rater_a=3; rater_b=2; rater_c=3; rater_d=4
+resp_051,4,3,2,0.1667,rater_a=2; rater_b=2; rater_c=1; rater_d=3
+resp_057,4,3,3,0.1667,rater_a=3; rater_b=2; rater_c=3; rater_d=4
+resp_058,4,3,3,0.1667,rater_a=1; rater_b=2; rater_c=3; rater_d=3
+resp_076,4,3,3,0.1667,rater_a=2; rater_b=3; rater_c=3; rater_d=4
+resp_080,4,3,4,0.1667,rater_a=4; rater_b=3; rater_c=2; rater_d=4
+resp_002,4,2,,0.3333,rater_a=2; rater_b=3; rater_c=3; rater_d=2
+resp_004,4,2,,0.3333,rater_a=3; rater_b=4; rater_c=3; rater_d=4
+resp_009,3,2,3,0.3333,rater_a=3; rater_c=3; rater_d=4
+resp_010,3,2,4,0.3333,rater_b=4; rater_c=4; rater_d=5
+resp_011,4,2,,0.3333,rater_a=4; rater_b=3; rater_c=3; rater_d=4
+resp_012,3,2,5,0.3333,rater_a=5; rater_c=4; rater_d=5
+resp_013,3,2,4,0.3333,rater_a=4; rater_c=4; rater_d=5
+resp_015,3,2,5,0.3333,rater_a=4; rater_b=5; rater_d=5
+resp_018,3,2,4,0.3333,rater_b=2; rater_c=4; rater_d=4
+resp_019,3,2,3,0.3333,rater_a=3; rater_b=3; rater_d=4
+resp_020,4,2,,0.3333,rater_a=3; rater_b=2; rater_c=2; rater_d=3
+resp_022,3,2,4,0.3333,rater_a=4; rater_b=4; rater_d=5
+resp_024,3,2,5,0.3333,rater_a=5; rater_b=4; rater_d=5
+resp_036,4,2,,0.3333,rater_a=5; rater_b=4; rater_c=4; rater_d=5
+resp_038,4,2,,0.3333,rater_a=1; rater_b=2; rater_c=1; rater_d=2
+resp_040,3,2,3,0.3333,rater_a=3; rater_c=1; rater_d=3
+resp_045,3,2,4,0.3333,rater_a=4; rater_b=4; rater_d=5
+resp_048,4,2,,0.3333,rater_a=1; rater_b=2; rater_c=1; rater_d=2
+resp_049,4,2,,0.3333,rater_a=4; rater_b=4; rater_c=5; rater_d=5
+resp_056,3,2,3,0.3333,rater_a=3; rater_b=3; rater_d=4
+resp_060,4,2,,0.3333,rater_a=4; rater_b=4; rater_c=5; rater_d=5
+resp_062,4,2,,0.3333,rater_a=3; rater_b=4; rater_c=3; rater_d=4
+resp_065,3,2,1,0.3333,rater_a=1; rater_b=2; rater_c=1
+resp_067,3,2,3,0.3333,rater_a=4; rater_b=3; rater_c=3
+resp_072,3,2,3,0.3333,rater_a=3; rater_c=3; rater_d=4
+resp_073,3,2,2,0.3333,rater_b=2; rater_c=2; rater_d=3
+resp_078,3,2,5,0.3333,rater_a=5; rater_c=4; rater_d=5
+resp_001,4,2,5,0.5,rater_a=4; rater_b=5; rater_c=5; rater_d=5
+resp_006,4,2,3,0.5,rater_a=3; rater_b=3; rater_c=3; rater_d=4
+resp_008,4,2,5,0.5,rater_a=5; rater_b=4; rater_c=5; rater_d=5
+resp_021,4,2,2,0.5,rater_a=2; rater_b=2; rater_c=2; rater_d=4
+resp_023,4,2,3,0.5,rater_a=3; rater_b=4; rater_c=3; rater_d=3
+resp_026,4,2,5,0.5,rater_a=5; rater_b=5; rater_c=4; rater_d=5
+resp_027,4,2,1,0.5,rater_a=1; rater_b=1; rater_c=1; rater_d=2
+resp_031,4,2,3,0.5,rater_a=2; rater_b=3; rater_c=3; rater_d=3
+resp_034,4,2,3,0.5,rater_a=3; rater_b=2; rater_c=3; rater_d=3
+resp_035,4,2,3,0.5,rater_a=3; rater_b=3; rater_c=3; rater_d=4
+resp_037,4,2,4,0.5,rater_a=4; rater_b=4; rater_c=4; rater_d=5
+resp_042,4,2,4,0.5,rater_a=2; rater_b=4; rater_c=4; rater_d=4
+resp_050,4,2,4,0.5,rater_a=5; rater_b=4; rater_c=4; rater_d=4
+resp_054,4,2,4,0.5,rater_a=4; rater_b=3; rater_c=4; rater_d=4
+resp_064,4,2,5,0.5,rater_a=5; rater_b=4; rater_c=5; rater_d=5
+resp_068,4,2,3,0.5,rater_a=3; rater_b=3; rater_c=3; rater_d=5
+resp_069,4,2,4,0.5,rater_a=4; rater_b=4; rater_c=4; rater_d=5
+resp_070,4,2,3,0.5,rater_a=3; rater_b=3; rater_c=3; rater_d=4
+resp_071,4,2,2,0.5,rater_a=2; rater_b=2; rater_c=2; rater_d=3
+resp_075,4,2,4,0.5,rater_a=4; rater_b=4; rater_c=4; rater_d=5
+resp_077,4,2,4,0.5,rater_a=4; rater_b=4; rater_c=4; rater_d=5
+resp_079,4,2,3,0.5,rater_a=3; rater_b=3; rater_c=3; rater_d=4

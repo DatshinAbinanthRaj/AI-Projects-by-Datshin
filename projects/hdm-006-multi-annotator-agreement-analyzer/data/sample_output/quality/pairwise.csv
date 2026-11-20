@@ -1,0 +1,7 @@
+annotator_a,annotator_b,items_in_common,raw_agreement,cohen_kappa,enough_overlap
+rater_a,rater_b,68,0.4412,0.2832,True
+rater_a,rater_c,64,0.625,0.5147,True
+rater_a,rater_d,67,0.3284,0.1309,True
+rater_b,rater_c,63,0.6032,0.49,True
+rater_b,rater_d,66,0.303,0.1068,True
+rater_c,rater_d,64,0.3438,0.1566,True

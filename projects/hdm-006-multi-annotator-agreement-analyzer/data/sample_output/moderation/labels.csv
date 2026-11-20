@@ -1,0 +1,5 @@
+label,times_used,share_of_ratings,alpha_one_vs_rest
+harassment,68,0.1511,0.5506
+misinformation,65,0.1444,0.3182
+safe,202,0.4489,0.6505
+spam,115,0.2556,0.4173
